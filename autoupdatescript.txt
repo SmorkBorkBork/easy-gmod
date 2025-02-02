@@ -1,5 +1,6 @@
 @ShutdownOnFailedCommand 1
 @NoPromptForPassword 1
+force_install_dir
 login anonymous
 force_install_dir ${GMODDIR}
 app_update ${GMODID}
