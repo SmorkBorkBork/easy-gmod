@@ -39,5 +39,5 @@ USER steam
 CMD ./easygmod.sh
 
 # Set up container
-EXPOSE 27015/udp
+EXPOSE 27015/udp 27005/udp
 VOLUME ${GMODDIR} ${CSSDIR} ${TF2DIR}
